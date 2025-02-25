@@ -4,13 +4,9 @@ import LOGO from "/public/Images/logo3.png";
 
 interface FullScreenLoaderProps {
   label?: string;
-  className?: string;
 }
 
-export const FullScreenLoader = ({
-  className,
-  label,
-}: FullScreenLoaderProps) => {
+export const FullScreenLoader = ({ label }: FullScreenLoaderProps) => {
   return (
     <div className="min-h-screen flex flex-col items-center justify-center gap-2">
       <Image

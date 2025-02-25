@@ -7,7 +7,6 @@ import { useDebounce } from "@/hooks/use-debounce";
 import { toast } from "sonner";
 import { useStatus } from "@liveblocks/react";
 import { LoaderIcon } from "lucide-react";
-import { isErrored } from "stream";
 
 interface DocumentInputProps {
   title: string;

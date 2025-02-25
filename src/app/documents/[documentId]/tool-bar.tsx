@@ -45,7 +45,6 @@ import {
   RemoveFormattingIcon,
   SearchIcon,
   SpellCheckIcon,
-  Target,
   UnderlineIcon,
   Undo2Icon,
   UploadIcon,
