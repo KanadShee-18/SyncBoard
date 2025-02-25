@@ -3,6 +3,7 @@
 import Link from "next/link";
 import LOGO from "/public/Images/logo3.png";
 import Image from "next/image";
+import { UserButton } from "@clerk/nextjs";
 import { DocumentInput } from "./document-input";
 import {
   BoldIcon,
@@ -288,6 +289,7 @@ export const Navbar = () => {
           </div>
         </div>
       </div>
+      <UserButton />
     </nav>
   );
 };
