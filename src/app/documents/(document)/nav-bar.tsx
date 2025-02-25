@@ -2,7 +2,7 @@ import Image from "next/image";
 import LOGO from "/public/Images/logo3.png";
 import Link from "next/link";
 import { SearchInput } from "./search-input";
-import { UserButton } from "@clerk/nextjs";
+import { UserButton, OrganizationSwitcher } from "@clerk/nextjs";
 
 export const DocNavBar = () => {
   return (
@@ -21,7 +21,15 @@ export const DocNavBar = () => {
         <h3 className="text-xl text-slate-700 font-semibold">Sync Board</h3>
       </div>
       <SearchInput />
-      <UserButton />
+      <div className="flex gap-3 pl-6 items-center">
+        <OrganizationSwitcher
+          afterCreateOrganizationUrl={"/documents"}
+          afterLeaveOrganizationUrl="/documents"
+          afterSelectOrganizationUrl={"/documents"}
+          afterSelectPersonalUrl={"/documents"}
+        />
+        <UserButton />
+      </div>
     </nav>
   );
 };
