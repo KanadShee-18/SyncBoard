@@ -626,9 +626,6 @@ const ToolbarButton = ({
 
 export const ToolBar = () => {
   const { editor } = useEditorStore();
-  console.log("Toolbar page editor: ", {
-    editor,
-  });
 
   const sections: {
     label: string;
