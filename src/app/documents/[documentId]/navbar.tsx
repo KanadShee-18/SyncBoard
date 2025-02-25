@@ -3,7 +3,7 @@
 import Link from "next/link";
 import LOGO from "/public/Images/logo3.png";
 import Image from "next/image";
-import { UserButton } from "@clerk/nextjs";
+import { OrganizationSwitcher, UserButton } from "@clerk/nextjs";
 import { DocumentInput } from "./document-input";
 import {
   BoldIcon,
@@ -289,7 +289,15 @@ export const Navbar = () => {
           </div>
         </div>
       </div>
-      <UserButton />
+      <div className="flex gap-3 pl-6 items-center">
+        <OrganizationSwitcher
+          afterCreateOrganizationUrl={"/documents"}
+          afterLeaveOrganizationUrl="/documents"
+          afterSelectOrganizationUrl={"/documents"}
+          afterSelectPersonalUrl={"/documents"}
+        />
+        <UserButton />
+      </div>
     </nav>
   );
 };
