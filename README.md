@@ -1,7 +1,8 @@
 # Sync Board
 
 [🌎 Visit Site](https://sync-board-alpha.vercel.app)
-Sync Board is a **real-time collaborative document editor** built with **Next.js 15** and **Tiptap Editor**. It enables users to create and edit various types of documents in real time, leveraging **Liveblocks** for seamless collaboration. Users can mention others in documents, chat while editing, and use **prebuilt templates** to kickstart their work. Additionally, Sync Board allows saving documents in multiple formats.
+
+- **Sync Board** is a **real-time collaborative document editor** built with **Next.js 15** and **Tiptap Editor**. It enables users to create and edit various types of documents in real time, leveraging **Liveblocks** for seamless collaboration. Users can mention others in documents, chat while editing, and use **prebuilt templates** to kickstart their work. Additionally, Sync Board allows saving documents in multiple formats.
 
 ## ![main](/public/Images/scrnst/collage.png)
 
@@ -14,7 +15,6 @@ Sync Board is a **real-time collaborative document editor** built with **Next.js
 - Users can edit documents simultaneously.
 - Changes are reflected instantly using **Liveblocks**.
 
-**_Image Suggestion:_ Screenshot showing two users editing a document in real-time.\_**
 
 ### 💬 User Mentions & Chat
 
@@ -23,7 +23,6 @@ Sync Board is a **real-time collaborative document editor** built with **Next.js
 - Mention other users within the document.
 - Engage in inline discussions while editing.
 
-**_Image Suggestion:_ Example of user mention feature with chat bubbles.\_**
 
 ### 📄 Prebuilt Templates
 
@@ -32,7 +31,6 @@ Sync Board is a **real-time collaborative document editor** built with **Next.js
 - Various document templates to choose from.
 - Saves time by providing ready-made structures.
 
-**_Image Suggestion:_ Grid view displaying available document templates.\_**
 
 ### 💾 Export & Save Documents
 
@@ -41,7 +39,6 @@ Sync Board is a **real-time collaborative document editor** built with **Next.js
 - Save files in multiple formats (PDF, Markdown, etc.).
 - Download documents easily.
 
-**_Image Suggestion:_ UI mockup showing export options.\_**
 
 ### 🎨 Beautiful UI
 
@@ -49,7 +46,6 @@ Sync Board is a **real-time collaborative document editor** built with **Next.js
 
 - Styled with **Tailwind CSS** for a modern and responsive experience.
 
-**_Image Suggestion:_ Elegant UI with a dark and light mode preview.\_**
 
 ## Tech Stack
 
@@ -58,8 +54,6 @@ Sync Board is a **real-time collaborative document editor** built with **Next.js
 - **Real-Time Collaboration:** Liveblocks
 - **Authentication:** Clerk
 - **Deployment:** Vercel
-
-**_Image Suggestion:_ Tech stack logos (Next.js, Tailwind, Liveblocks, etc.).\_**
 
 ---
 
