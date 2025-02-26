@@ -15,14 +15,12 @@
 - Users can edit documents simultaneously.
 - Changes are reflected instantly using **Liveblocks**.
 
-
 ### 💬 User Mentions & Chat
 
 ![message](/public/Images/scrnst/img7.png)
 
 - Mention other users within the document.
 - Engage in inline discussions while editing.
-
 
 ### 📄 Prebuilt Templates
 
@@ -31,7 +29,6 @@
 - Various document templates to choose from.
 - Saves time by providing ready-made structures.
 
-
 ### 💾 Export & Save Documents
 
 ![export_options](/public/Images/scrnst/img11.png)
@@ -39,13 +36,11 @@
 - Save files in multiple formats (PDF, Markdown, etc.).
 - Download documents easily.
 
-
 ### 🎨 Beautiful UI
 
 ![export_options](/public/Images/scrnst/img3.png)
 
 - Styled with **Tailwind CSS** for a modern and responsive experience.
-
 
 ## Tech Stack
 
@@ -69,7 +64,7 @@
    npm install --legacy-peer-deps
    ```
 
-   for yarn or bun it will be simpe,
+   for yarn or bun it will be simple,
 
    ```
    bun install or, yarn install
