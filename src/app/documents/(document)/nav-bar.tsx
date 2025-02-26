@@ -1,5 +1,6 @@
 import Image from "next/image";
 import LOGO from "/public/Images/logo3.png";
+import SYNC_BOARD_LOGO from "/public/Images/sync-board.png";
 import Link from "next/link";
 import { SearchInput } from "./search-input";
 import { UserButton, OrganizationSwitcher } from "@clerk/nextjs";
@@ -18,7 +19,12 @@ export const DocNavBar = () => {
             unoptimized
           />
         </Link>
-        <h3 className="text-xl text-slate-700 font-semibold">Sync Board</h3>
+        <Image
+          src={SYNC_BOARD_LOGO}
+          alt="Collaboration"
+          width={130}
+          height={80}
+        />
       </div>
       <SearchInput />
       <div className="flex gap-3 pl-6 items-center">

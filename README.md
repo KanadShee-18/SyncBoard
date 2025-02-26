@@ -1,36 +1,124 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Sync Board
 
-## Getting Started
+[🌎 Visit Site](https://sync-board-alpha.vercel.app)
+Sync Board is a **real-time collaborative document editor** built with **Next.js 15** and **Tiptap Editor**. It enables users to create and edit various types of documents in real time, leveraging **Liveblocks** for seamless collaboration. Users can mention others in documents, chat while editing, and use **prebuilt templates** to kickstart their work. Additionally, Sync Board allows saving documents in multiple formats.
 
-First, run the development server:
+## ![main](/public/Images/scrnst/collage.png)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Features
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 🚀 Real-Time Collaboration
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+![Sync Board](/public/Images/scrnst/img9.png)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- Users can edit documents simultaneously.
+- Changes are reflected instantly using **Liveblocks**.
 
-## Learn More
+**_Image Suggestion:_ Screenshot showing two users editing a document in real-time.\_**
 
-To learn more about Next.js, take a look at the following resources:
+### 💬 User Mentions & Chat
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+![message](/public/Images/scrnst/img7.png)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- Mention other users within the document.
+- Engage in inline discussions while editing.
 
-## Deploy on Vercel
+**_Image Suggestion:_ Example of user mention feature with chat bubbles.\_**
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### 📄 Prebuilt Templates
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+![templates](/public/Images/scrnst/img10.png)
+
+- Various document templates to choose from.
+- Saves time by providing ready-made structures.
+
+**_Image Suggestion:_ Grid view displaying available document templates.\_**
+
+### 💾 Export & Save Documents
+
+![export_options](/public/Images/scrnst/img11.png)
+
+- Save files in multiple formats (PDF, Markdown, etc.).
+- Download documents easily.
+
+**_Image Suggestion:_ UI mockup showing export options.\_**
+
+### 🎨 Beautiful UI
+
+![export_options](/public/Images/scrnst/img3.png)
+
+- Styled with **Tailwind CSS** for a modern and responsive experience.
+
+**_Image Suggestion:_ Elegant UI with a dark and light mode preview.\_**
+
+## Tech Stack
+
+- **Frontend:** Next.js 15, React, Tailwind CSS
+- **Editor:** Tiptap
+- **Real-Time Collaboration:** Liveblocks
+- **Authentication:** Clerk
+- **Deployment:** Vercel
+
+**_Image Suggestion:_ Tech stack logos (Next.js, Tailwind, Liveblocks, etc.).\_**
+
+---
+
+## Installation & Setup
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/KanadShee-18/SyncBoard.git
+   ```
+2. Install dependencies:
+
+   ```bash
+   npm install --legacy-peer-deps
+   ```
+
+   for yarn or bun it will be simpe,
+
+   ```
+   bun install or, yarn install
+   ```
+
+3. Set up environment variables:
+   ```plaintext
+   CONVEX_DEPLOYMENT=your_api_key
+   NEXT_PUBLIC_CONVEX_URL=generated through npx convex dev
+   NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=your_clerk_publishable_key
+   CLERK_SECRET_KEY=clerk_secret_key
+   LIVEBLOCKS_SECRET_KEY=liveblocks_secret
+   ```
+4. Run the development server:
+   ```bash
+   npm run dev
+   ```
+   and also
+   ```
+   npx convex dev
+   ```
+5. Open [http://localhost:3000](http://localhost:3000) in your browser and see how cool it is.
+
+## Usage
+
+1. Sign in and create a new document.
+2. Choose a template or start from scratch.
+3. Mention collaborators and edit in real-time.
+4. Save or export your document in the desired format.
+
+## Contributing
+
+We welcome contributions! Feel free to:
+
+- Open issues for bugs or feature requests.
+- Submit pull requests for improvements.
+
+---
+
+### 📞 Connect with Us
+
+For any queries or feedback, reach out via [GitHub Issues](https://github.com/KanadShee-18/SyncBoard/issues).
+
+---
+
+## THANK YOU !
